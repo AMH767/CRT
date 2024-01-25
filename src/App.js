@@ -1,10 +1,11 @@
+import { Route } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
+
 import React, { useState, createContext } from "react";
 import CurrencyData from "section/CurrencyData";
 import Capitalization from "section/Capitalization";
 import styles from "./Styles.module.scss";
-
-
+import About from "./pages/About";
 export const AppContext = createContext();
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
 
   return (
     <>
-    
+
     <AppContext.Provider value={{currency, setCurrency, vsCurrency, setVsCurrency, showCapSide, setShowCapSide}}>
       <div style={{backgroundColor: "rgb(21,21,32)"}}>
+      <Route path="/about" component={About} />
       <Box 
         sx={{
           display: 'flex',
