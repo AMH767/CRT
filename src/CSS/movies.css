@@ -1,0 +1,50 @@
+#menu {
+  background: url(../images/home1.jpg) no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-image: fill 5 linear-gradient(#000000b3, #00000002, #000000b3);
+  margin-top: -9%;
+  padding-top: 8%;
+}
+
+#menu .box-container {
+  display: flex;
+  margin-top: 8rem;
+  justify-content: space-around;
+}
+
+#menu .box-container .box .image img {
+  border-radius: 4rem;
+  box-shadow: 10px 10px 17px -2px rgba(179, 0, 255, 0.75);
+}
+
+#menu .box-container .box .image-text{
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+#menu .box-container .box:hover {
+  transform: translateY(-35px);
+}
+
+#menu .cont-dis h3 {
+  filter: drop-shadow(1rem .4rem .5rem rgba(255, 0, 0, 0.689));
+  width: 100%;
+}
+
+#menu .box-dis .box .image img{
+  box-shadow: 10px 10px 17px -2px rgba(181, 0, 0, 0.75);
+}
+
+#countdown {
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}

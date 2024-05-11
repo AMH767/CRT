@@ -1,3 +1,6 @@
+import React from 'react';
+
+// остальной код файла Memitwo.jsx
 import Picture from "../componentsthree/Picture"
 import '../assets/css/style.css';
 import '../assets/css/bootstrap.min.css';

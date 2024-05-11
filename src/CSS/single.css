@@ -1,0 +1,165 @@
+body{
+  background-color: black;
+}
+
+.lor {
+  background: url(../images/lor-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wom {
+  background:url(../images/wom-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.lr {
+  background:url(../images/lr-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.minions {
+  background:url(../images/minion-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mıw {
+  background:url(../images/aıw-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.tr {
+  background:url(../images/the\ raid2-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pianist {
+  background:url(../images/The-Pianist-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hangover {
+  background:url(../images/hangover3-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.inception {
+  background:url(../images/inception-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.am {
+  background:url(../images/av\ mevsimi-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ıml {
+  background:url(../images/iml-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.lvs {
+  background:url(../images/ls-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hg {
+  background:url(../images/hg-bg.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.saw {
+  background:url(../images/saw-bg.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fc {
+  background:url(../images/fc-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#single {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: -8.2%;
+  padding: 10% 5% 5% 5%;
+  border-image: fill 5 linear-gradient(rgba(255, 255, 255, 0), #000000af);
+}
+
+#single .trailer{
+  display: flex;
+}
+
+#single .trailer .info{
+  width: 50%;
+  color: white;
+  margin-left: 5%;
+}
+
+#single .trailer .info-head{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#single .trailer .info-body {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#single .trailer .info-body span{
+    color: white;
+    font-weight: 300;
+}
+
+#single .text {
+  margin-top: 2%;
+  color: white;
+  font-size: 2rem;
+}

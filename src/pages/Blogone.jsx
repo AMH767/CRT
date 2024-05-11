@@ -47,7 +47,7 @@ const Blogone = () => {
                 </li>
                 <li className="has-children">
                   <a href="#about-section" className="nav-link">
-                    Features
+                  Функции
                   </a>
                   <ul className="dropdown arrow-top">
                     <li>
@@ -128,7 +128,7 @@ const Blogone = () => {
           data-aos-delay={200}
         >
           <img
-            src="https://raw.githubusercontent.com/AMH767/cryptoimage/main/imagecrypt1.png"
+            src="https://raw.githubusercontent.com/AMH767/image/main/medved.jpg"
             alt="Image"
             className="img-fluid img-shadow"
           />

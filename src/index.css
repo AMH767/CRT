@@ -6,8 +6,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Noto Sans" ,Georgia, 'Times New Roman', Times, serif !important;
+  
 }
 /* Base */
+
 
 body {
   line-height: 1.7;
@@ -47,6 +49,24 @@ h5,
 .bg-light {
   background: #ffe9e9 !important;
 }
+
+
+
+
+.formi{
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+
+
+
+
 
 .text-black {
   color: #000 !important;
@@ -825,22 +845,25 @@ h5,
 
 .unit-4 {
   padding: 30px;
-  background: #f1f1f1;
+  background: transparent; /* Changed background to transparent */
   border-radius: 5px;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  transition: .3s all ease; /* Removed vendor prefixes for brevity */
   position: relative;
   top: 0;
   margin-bottom: 4em;
   text-align: center;
   padding-top: 50px;
+  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4); /* Consolidated box-shadow properties */
+}
+
+.unit-4:hover {
+  transform: scale(1.05); /* Changed the hover animation to scale the card slightly */
+  background-color: #e1fff7; /* Changed background color on hover */
+  color: #fff; /* Changed text color on hover */
 }
 
 .unit-4 .unit-4-icon {
   position: absolute;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   left: 50%;
   top: -50px;
@@ -852,9 +875,8 @@ h5,
   position: relative;
   border-radius: 50%;
   display: inline-block;
-  background-color: #4285f4;
-  -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+  background-color: #ff6347; /* Changed background color to a reddish shade */
+  box-shadow: 0 4px 20px -5px rgba(255, 99, 71, 0.4); /* Changed box-shadow color */
 }
 
 .unit-4 .unit-4-icon .icon-wrap span {
@@ -863,56 +885,23 @@ h5,
   top: 50%;
   color: #fff !important;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .unit-4 h3 {
   font-size: 18px;
-  color: #000;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  color: #000000; /* Changed heading color to green */
+  transition: .3s all ease; /* Removed vendor prefixes for brevity */
 }
 
 .unit-4 p {
   font-weight: 300;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  transition: .3s all ease; /* Removed vendor prefixes for brevity */
+  color: #000; /* Changed paragraph color to black */
 }
 
-.unit-4 *:last-child {
+.unit-4 * {
   margin-bottom: 0;
-}
-
-.unit-4:hover {
-  background: #4285f4;
-  -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-  top: -7px;
-}
-
-.unit-4:hover .icon-wrap {
-  background-color: #fff;
-}
-
-.unit-4:hover .icon-wrap span {
-  color: #4285f4 !important;
-}
-
-.unit-4:hover h3 {
-  color: #fff;
-}
-
-.unit-4:hover p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.unit-4:hover p a {
-  color: #fff;
 }
 
 .h-entry img {

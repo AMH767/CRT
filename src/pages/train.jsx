@@ -88,7 +88,7 @@ const Train = () => {
                 </li>
                 <li className="has-children">
                   <a href="#about-section" className="nav-link">
-                    Features
+                  Функции
                   </a>
                   <ul className="dropdown arrow-top">
                     <li>
@@ -165,6 +165,7 @@ const Train = () => {
       </div>
     </div>
   </div>
+
   <div className="untree_co-section pt-0">
     <div className="container">
       <div className="row justify-content-between">
@@ -198,7 +199,7 @@ const Train = () => {
               data-aos-delay={0}
             >
               <span className="counter d-block h2">
-                <span data-number={1100}>0</span>
+                <span data-number={1100}>1500</span>
                 <span> м</span>
               </span>
               <span className="caption-2">Базовый</span>
@@ -209,7 +210,7 @@ const Train = () => {
               data-aos-delay={100}
             >
               <span className="counter d-block h2">
-                <span data-number={1900}>0</span>
+                <span data-number={1900}>1500</span>
                 <span> м</span>
               </span>
               <span className="caption-2">Продвинутый</span>
@@ -220,107 +221,17 @@ const Train = () => {
               data-aos-delay={100}
             >
               <span className="counter d-block h2">
-                <span data-number={2800}>0</span>
+                <span data-number={2800}>2700</span>
                 <span> м</span>
               </span>
               <span className="caption-2">Мастер</span>
             </div>
           </div>
           <p data-aos="fade-up" data-aos-delay={200}>
-            <a href="#" className="btn btn-black">
+            <a href="/traincart" className="btn btn-black">
               Другой план тренировки
             </a>
-            <a href="#" className="btn btn-outline-black">
-              Подробнее
-            </a>
-          </p>
-        </div>
-        <div className="col-lg-6" data-aos="fade-up" data-aos-delay={400}>
-          <div className="bg-1" />
-          <a
-            href="https://youtu.be/mlf8KI15xGA?si=epml-fvnILa1M7fO"
-            data-fancybox=""
-            className="video-wrap"
-          >
-            <span className="play-wrap">
-              <span className="icon-play" />
-            </span>
-            <img
-              src="https://arena-swim.ru/wp-content/uploads/9/0/e/90e35b7a6edd152e1aa1608a645e806d.gif"
-              alt="Image"
-              className="img-fluid rounded"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div className="untree_co-section pt-0">
-    <div className="container">
-      <div className="row justify-content-between">
-        <div className="col-lg-5 mb-5">
-          <h2
-            className="line-bottom mb-4"
-            data-aos="fade-up"
-            data-aos-delay={0}
-          >
-            Вольный стиль
-          </h2>
-          <p data-aos="fade-up" data-aos-delay={100}>
-            Про технику и особенности данного вида и важные напаминание про
-            частые ошибки в плавании
-          </p>
-          <ul
-            className="list-unstyled ul-check mb-5 primary"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
-            <li>Базовый уровень (ссылка на базовый уровень тренировки)</li>
-            <li>
-              Продвинутый уровень (ссылка на продвинутый уровень тренировки)
-            </li>
-            <li>Мастер уровень (ссылка на мастер уровень тренировки)</li>
-          </ul>
-          <div className="row count-numbers mb-5">
-            <div
-              className="col-4 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay={0}
-            >
-              <span className="counter d-block h2">
-                <span data-number={1100}>0</span>
-                <span> м</span>
-              </span>
-              <span className="caption-2">Базовый</span>
-            </div>
-            <div
-              className="col-4 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay={100}
-            >
-              <span className="counter d-block h2">
-                <span data-number={1900}>0</span>
-                <span> м</span>
-              </span>
-              <span className="caption-2">Продвинутый</span>
-            </div>
-            <div
-              className="col-4 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay={100}
-            >
-              <span className="counter d-block h2">
-                <span data-number={2800}>0</span>
-                <span> м</span>
-              </span>
-              <span className="caption-2">Мастер</span>
-            </div>
-          </div>
-          <p data-aos="fade-up" data-aos-delay={200}>
-            <a href="#" className="btn btn-black">
-              Другой план тренировки
-            </a>
-            <a href="#" className="btn btn-outline-black">
+            <a href="/traincart" className="btn btn-outline-black">
               Подробнее
             </a>
           </p>

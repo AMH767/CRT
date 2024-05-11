@@ -6,12 +6,18 @@ body {
     font-weight: 400;
     font-size: 1rem;
 }
+.bobi{
+    border: 1px solid black;
+}
 
 ::selection {
     background: #000;
     color: #fff;
 }
-
+.bold-text {
+    font-weight: bold;
+  }
+  
 a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -832,95 +838,85 @@ h5,
 
 .unit-4 {
     padding: 30px;
-    background: #f1f1f1;
+    background: transparent; /* Changed background to transparent */
     border-radius: 5px;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+    transition: .3s all ease; /* Removed vendor prefixes for brevity */
     position: relative;
     top: 0;
     margin-bottom: 4em;
     text-align: center;
     padding-top: 50px;
-}
-
-.unit-4 .unit-4-icon {
+    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4); /* Consolidated box-shadow properties */
+  }
+  
+  .unit-4 .unit-4-icon {
     position: absolute;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     left: 50%;
     top: -50px;
-}
-
-.unit-4 .unit-4-icon .icon-wrap {
+  }
+  
+  .unit-4 {
+    padding: 30px;
+    background: transparent; /* Changed background to transparent */
+    border-radius: 5px;
+    transition: .3s all ease; /* Removed vendor prefixes for brevity */
+    position: relative;
+    top: 0;
+    margin-bottom: 4em;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4); /* Consolidated box-shadow properties */
+  }
+  
+  .unit-4:hover {
+    transform: scale(1.05); /* Changed the hover animation to scale the card slightly */
+    background-color: #e1fff7; /* Changed background color on hover */
+    color: #fff; /* Changed text color on hover */
+  }
+  
+  .unit-4 .unit-4-icon {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -50px;
+  }
+  
+  .unit-4 .unit-4-icon .icon-wrap {
     width: 80px;
     height: 80px;
     position: relative;
     border-radius: 50%;
     display: inline-block;
-    background-color: #4285f4;
-    -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-}
-
-.unit-4 .unit-4-icon .icon-wrap span {
+    background-color: #ff6347; /* Changed background color to a reddish shade */
+    box-shadow: 0 4px 20px -5px rgba(255, 99, 71, 0.4); /* Changed box-shadow color */
+  }
+  
+  .unit-4 .unit-4-icon .icon-wrap span {
     font-size: 2rem;
     position: absolute;
     top: 50%;
     color: #fff !important;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
-
-.unit-4 h3 {
+  }
+  
+  .unit-4 h3 {
     font-size: 18px;
-    color: #000;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-}
-
-.unit-4 p {
+    color: #000000; /* Changed heading color to green */
+    transition: .3s all ease; /* Removed vendor prefixes for brevity */
+  }
+  
+  .unit-4 p {
     font-weight: 300;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-}
-
-.unit-4 *:last-child {
+    transition: .3s all ease; /* Removed vendor prefixes for brevity */
+    color: #000; /* Changed paragraph color to black */
+  }
+  
+  .unit-4 * {
     margin-bottom: 0;
-}
-
-.unit-4:hover {
-    background: #4285f4;
-    -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-    top: -7px;
-}
-
-.unit-4:hover .icon-wrap {
-    background-color: #fff;
-}
-
-.unit-4:hover .icon-wrap span {
-    color: #4285f4 !important;
-}
-
-.unit-4:hover h3 {
-    color: #fff;
-}
-
-.unit-4:hover p {
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.unit-4:hover p a {
-    color: #fff;
-}
+  }
+  
 
 .h-entry img {
     margin-bottom: 30px;
@@ -1138,27 +1134,17 @@ h5,
     margin-bottom: 10px;
 }
 
-
-/*PRELOADING------------ */
-
-/* #overlayer {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 7100;
-    background: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.neo{
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 94, 0, 0.8);
+animation: neon-animation 1s infinite alternate;
 }
 
-.loader {
-    z-index: 7700;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-} */
+@keyframes neon-animation {
+from {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 94, 0, 0.8);
+}
+
+to {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 216, 0, 0.8);
+}
+}

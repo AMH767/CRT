@@ -1,0 +1,286 @@
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url('https://raw.githubusercontent.com/AMH767/image/main/phoy/background.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+} */
+
+.section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#DA22FF, #9733EE);
+    clip-path: circle(30% at right 70%);
+}
+
+.section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#E55D87, #5FC3E4);
+    clip-path: circle(20% at 10% 10%);
+}
+
+.container1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    font-family: 'Arial', sans-serif; 
+    color: #fff;
+    text-align: center;
+}
+
+.container1 .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 217, 255, 0.8);
+    /* animation: neon-animation 1s infinite alternate; */
+}
+
+.container1 .card .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.container1 .card:hover .content {
+    transform: translateY(-20px);
+}
+
+.container1 .card .content .imgBx {
+    position: relative;
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.container1 .card .content .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container1 .card .content .contentBx h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+    /* font-size: 18px; */
+     text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container1 .card .content .contentBx h3 span {
+    font-size: 12px;
+    /* font-weight: 300; */
+    text-transform: initial;
+}
+
+.container1 .card .sci {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+
+.container1 .card .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container1 .card:hover .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container1 .card .sci li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.blob-c {
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.shape-blob {
+	background: #20C3F9;
+	height: 60px;
+	width: 80px;
+	border-radius: 40% 50% 30% 40%;
+	animation: transform 18s ease-in-out infinite both alternate, movement_one 12s ease-in-out infinite both;
+	opacity: 0.7;
+	position: absolute;
+	left: 75%;
+	top: 40%;
+}
+
+.shape-blob.one {
+	background: #0085FF;
+	height: 150px;
+	width: 200px;
+	left: 10px;
+	top: 10px;
+	transform: rotate(-180deg);
+	animation: transform 8s ease-in-out infinite both alternate, movement_two 20s ease-in-out infinite both;
+}
+
+.shape-blob.oneo {
+	background: #0085FF;
+	height: 60px;
+	width: 80px;
+	left: 75px;
+	top: 250px;
+	transform: rotate(-180deg);
+	animation: transform 8s ease-in-out infinite both alternate, movement_oneo 17s ease-in-out infinite both;
+}
+
+.shape-blob.two {
+	background: #4EAEFF;
+	height: 150px;
+	width: 150px;
+	left: 600px;
+	top: 150px;
+	transform: rotate(-180deg);
+	animation: transform 10s ease-in-out infinite both alternate, movement_two 10s ease-in-out infinite both;
+}
+
+.shape-blob.three {
+	background: #0EAFFF;
+	height: 150px;
+	width: 150px;
+	left: 800px;
+	top: 30px;
+	transform: rotate(-180deg);
+	animation: transform 7s ease-in-out infinite both alternate, movement_two 23s ease-in-out infinite both;
+}
+
+
+.shape-blob.six{
+	background:#0EAFFF;
+	height: 70px;
+	width: 100px;
+	left: 160px;
+	top: 200px;
+	transform: rotate(-180deg);
+	animation: transform 5s ease-in-out infinite both alternate, movement_two 5s ease-in-out infinite both;
+}
+
+.shape-blob.four{
+	background:#4EAEFF;
+	height: 100px;
+	width: 80px;
+	left: 350px;
+	top: 60px;
+	transform: rotate(-180deg);
+	animation: transform 17s ease-in-out infinite both alternate, movement_two 13s ease-in-out infinite both;
+}
+
+.shape-blob.five{
+	background:#0085FF;
+	height: 100px;
+	width: 80px;
+	left: 480px;
+	top: 30px;
+	transform: rotate(-180deg);
+	animation: transform 12s ease-in-out infinite both alternate, movement_two 18s ease-in-out infinite both;
+}
+
+@keyframes transform {
+    0%, 100% {
+        border-radius: 33% 67% 70% 30% / 30% 40% 70% 70%;
+    }
+    20% {
+        border-radius: 37% 63% 51% 49% / 37% 35% 35% 63%;
+    }
+    40% {
+        border-radius: 36% 64% 64% 36% / 64% 48% 52% 26%;
+    }
+    60% {
+        border-radius: 37% 63% 51% 49% / 30% 30% 70% 73%;
+    }
+    80% {
+        border-radius: 40% 60% 42% 58% / 51% 51% 49% 59%;
+    }
+}
+
+@keyframes movement_one {
+    0%, 100% {
+        transform: none;
+    }
+    50% {
+        transform: translate(50%, 20%) rotateY(10deg) scale(1);
+    }
+}
+@keyframes movement_oneo {
+    0%, 100% {
+        transform: none;
+    }
+    50% {
+        transform: translate(50%, 20%) rotateY(10deg) scale(1);
+    }
+}
+
+@keyframes movement_two {
+    0%, 500% {
+        transform: none;
+    }
+    50% {
+        transform: translate(50%, 20%) rotate(-200deg) scale(1.3);
+    }
+}
+
+.textc {
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.15);
+} 

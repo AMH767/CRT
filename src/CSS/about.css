@@ -1,0 +1,40 @@
+:root {
+  --main-color: rgb(161, 8, 8);
+}
+
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: white;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: var(--main-color);
+}
+
+.about-banner {
+  width: 100%;
+  margin-top: -8.7%;
+  height: 40rem;
+}
+
+
+.about-banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(.7rem);
+}
+
+.history-text{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgb(161, 8, 8);
+  padding: 3% 5% 3% 5%;
+}

@@ -1,3 +1,6 @@
+import React from 'react';
+
+// остальной код файла TrendingContext.js
 import {
   createContext,
   useContext,

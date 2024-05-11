@@ -47,7 +47,7 @@ const Blogtwo = () => {
                 </li>
                 <li className="has-children">
                   <a href="#about-section" className="nav-link">
-                    Features
+                  Функции
                   </a>
                   <ul className="dropdown arrow-top">
                     <li>

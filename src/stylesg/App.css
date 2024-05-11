@@ -1,0 +1,79 @@
+/* App.css */
+
+.app {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.game-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.chessboard-container {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* Ширина блока текста */
+  grid-gap: 100px;
+  align-items: start;
+  color: black;
+}
+
+.chessboard-container {
+  grid-column: 1;
+}
+
+.text-block {
+  grid-column: 2;
+}
+
+
+
+
+
+
+
+
+
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.game-over p {
+  margin: 5px 0;
+}

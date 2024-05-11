@@ -88,7 +88,7 @@ const Blog = () => {
                 </li>
                 <li className="has-children">
                   <a href="#about-section" className="nav-link">
-                    Features
+                  Функции
                   </a>
                   <ul className="dropdown arrow-top">
                     <li>
@@ -184,7 +184,7 @@ const Blog = () => {
         <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
           <div className="h-entry">
             <img
-              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
+              src="https://raw.githubusercontent.com/AMH767/cryptoimage/main/crypt.jpg"
               alt="Image"
               className="img-fluid"
             />

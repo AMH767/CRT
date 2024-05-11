@@ -1,3 +1,6 @@
+import React from 'react';
+
+// остальной код файла TrendingContext.js
 import data from "../pages/data";
 import "../styles/style.css";
 
