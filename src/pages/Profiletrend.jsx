@@ -61,7 +61,58 @@ function Profiletrend() {
                   <span className="icon-close2 js-menu-toggle" />
                 </div>
               </div>
-              <div className="site-mobile-menu-body" />
+              <div className="site-mobile-menu-body">
+  <ul className="site-nav-wrap">
+    <li>
+      <a href="/" className="nav-link">
+        Home
+      </a>
+    </li>
+    <li className="has-children">
+      <a href="#" className="nav-link">
+        Функции
+      </a>
+      <ul className="collapse" id="collapseItem0">
+        <li>
+          <a href="#" target="_blank" className="nav-link">
+            <span className="text-primary">Психология</span>
+          </a>
+        </li>
+        <li>
+          <a href="/trending" className="nav-link">
+            Торговля
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/train" className="nav-link">
+        Sport
+      </a>
+    </li>
+    <li>
+      <a href="/kino" className="nav-link">
+        Kino
+      </a>
+    </li>
+    <li>
+      <a href="/game" className="nav-link">
+        Game
+      </a>
+    </li>
+    <li>
+      <a href="/blog" className="nav-link">
+        Психология
+      </a>
+    </li>
+    <li>
+      <a href="/Memitwo" className="nav-link">
+        Мемы
+      </a>
+    </li>
+  </ul>
+</div>
+
             </div>
             <header
               className="site-navbar py-4 js-sticky-header site-navbar-target"
@@ -150,6 +201,14 @@ function Profiletrend() {
                       </ul>
                     </nav>
                   </div>
+                  <div className="col-6 col-md-9 d-inline-block d-lg-none ml-md-0">
+            <a
+              href="#"
+              className="site-menu-toggle js-menu-toggle text-black float-right"
+            >
+              <span className="icon-menu h3" />
+            </a>
+          </div>
                   {/* <div className="col-6 col-md-9 d-inline-block d-lg-none ml-md-0">
                     <a
                       href="#"
@@ -175,6 +234,14 @@ function Profiletrend() {
                     <Animation /></div>
                     <div className="row mb-4" data-aos="fade-up" data-aos-delay={200}>
                       <div className="col-lg-6 mr-auto">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+
                         <h1>Две головы хорошо, а своя — лучше.</h1>
                         <p className="mb-5">
                           Для принятия решения успешный трейдер не нуждается в мнении со
@@ -219,7 +286,7 @@ function Profiletrend() {
                         </p>
                         <p>
                           <br></br>
-                          <a href="apk">Перейти</a>
+                          <a href="https://github.com/AMH767/apk/raw/main/app-debug.apk">Перейти</a>
                         </p>
                       </div>
                     </div>
@@ -270,6 +337,7 @@ function Profiletrend() {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         {/* <Animation /> */}
