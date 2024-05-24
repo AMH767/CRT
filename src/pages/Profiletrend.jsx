@@ -252,7 +252,7 @@ function Profiletrend() {
                           решение по нему принимаете ВЫ!
                         </p>
                         <div>
-                          <a href="#" className="btn btn-primary mr-2 mb-2">
+                          <a href="/trending" className="btn btn-primary mr-2 mb-2">
                             Начать торговлю
                           </a>
                         </div>
