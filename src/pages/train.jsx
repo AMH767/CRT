@@ -83,7 +83,7 @@ const Train = () => {
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                 <li>
                   <a href="/" className="nav-link">
-                    Home
+                    Домой
                   </a>
                 </li>
                 <li className="has-children">
@@ -91,11 +91,7 @@ const Train = () => {
                   Функции
                   </a>
                   <ul className="dropdown arrow-top">
-                    <li>
-                      <a href="#" target="_blank" className="nav-link">
-                        <span className="text-primary">Психология</span>
-                      </a>
-                    </li>
+
                     <li>
                       <a href="/trending" className="nav-link">
                         Торговля
@@ -111,19 +107,11 @@ const Train = () => {
                                   </li> */}
                   </ul>
                 </li>
+
+          
                 <li>
                   <a href="/train" className="nav-link">
-                    Sport
-                  </a>
-                </li>
-                <li>
-                  <a href="/kino" className="nav-link">
-                    Kino
-                  </a>
-                </li>
-                <li>
-                  <a href="/game" className="nav-link">
-                    Game
+                   Стратегии
                   </a>
                 </li>
                 <li>
@@ -158,8 +146,7 @@ const Train = () => {
             Плавание
           </span>
           <h2 data-aos="fade-up" data-aos-delay={200}>
-            Вид тренировки, дальная дистанция, короткая дистанция, уровни
-            сложностей
+            Виды стратегии, трендовая, скальпинг и многие другие стратегии
           </h2>
         </div>
       </div>
@@ -175,24 +162,24 @@ const Train = () => {
             data-aos="fade-up"
             data-aos-delay={0}
           >
-            Вольный стиль
+            Trend Following
           </h2>
           <p data-aos="fade-up" data-aos-delay={100}>
-            Про технику и особенности данного вида и важные напаминание про
-            частые ошибки в плавании
+          Стратегия следования за трендом основана на ожидании того, что направление цены 
+          сохранится в его текущей форме и тренд не развернется вспять
           </p>
           <ul
             className="list-unstyled ul-check mb-5 primary"
             data-aos="fade-up"
             data-aos-delay={200}
           >
-            <li>Базовый уровень (ссылка на базовый уровень тренировки)</li>
+            <li>Торговля по внутридневному тренду </li>
             <li>
-              Продвинутый уровень (ссылка на продвинутый уровень тренировки)
+            Торговля по долгосрочному тренду 
             </li>
-            <li>Мастер уровень (ссылка на мастер уровень тренировки)</li>
+            <li>Позиционная торговля</li>
           </ul>
-          <div className="row count-numbers mb-5">
+          {/* <div className="row count-numbers mb-5">
             <div
               className="col-4 col-lg-4"
               data-aos="fade-up"
@@ -226,12 +213,15 @@ const Train = () => {
               </span>
               <span className="caption-2">Мастер</span>
             </div>
-          </div>
+          </div> */}
           <p data-aos="fade-up" data-aos-delay={200}>
-            <a href="/traincart" className="btn btn-black">
-              Другой план тренировки
+            {/* <a href="/traincart" className="btn btn-black">
+             */}
+            <a href="/strateg" className="btn btn-black">
+
+              Другие стратегии
             </a>
-            <a href="/traincart" className="btn btn-outline-black">
+            <a href="/strateg" className="btn btn-outline-black">
               Подробнее
             </a>
           </p>
@@ -239,7 +229,7 @@ const Train = () => {
         <div className="col-lg-6" data-aos="fade-up" data-aos-delay={400}>
           <div className="bg-1" />
           <a
-            href="https://youtu.be/mlf8KI15xGA?si=epml-fvnILa1M7fO"
+            href="https://www.youtube.com/watch?v=Er7QVleVQJE&t=10s"
             data-fancybox=""
             className="video-wrap"
           >
@@ -247,7 +237,7 @@ const Train = () => {
               <span className="icon-play" />
             </span>
             <img
-              src="https://arena-swim.ru/wp-content/uploads/9/0/e/90e35b7a6edd152e1aa1608a645e806d.gif"
+              src="https://static.politico.com/35/1f/89c3bc18419c9d98e112514ccdfb/lede-high-freq-loop.gif"
               alt="Image"
               className="img-fluid rounded"
             />
@@ -264,7 +254,7 @@ const Train = () => {
           data-aos="fade-up"
           data-aos-delay={0}
         >
-          <h2 className="line-bottom text-center mb-4">Другой вид спорта</h2>
+          <h2 className="line-bottom text-center mb-4">Другие стратегии</h2>
         </div>
       </div>
       <div className="row">
@@ -276,18 +266,18 @@ const Train = () => {
           <div className="team text-center">
             <div className="mb-4">
               <img
-                src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
+                src="https://avatars.dzeninfra.ru/get-zen_doc/2431229/pub_609be53fb18ab12856f21b3f_609be5aa9be82c47285f5d39/scale_1200"
                 alt="Image"
                 className="img-fluid"
               />
             </div>
             <div className="team-body">
               <a href="boxing.html">
-                <h3 className="staff-name">Бокс</h3>
+                <h3 className="staff-name">Парный трейдинг</h3>
               </a>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis quis molestiae vitae eligendi at.
+              Одновременная покупка и продажа двух связанных финансовых 
+              инструментов. Обычно это акции или другие связанные активы.
               </p>
             </div>
           </div>
@@ -300,18 +290,18 @@ const Train = () => {
           <div className="team text-center">
             <div className="mb-4">
               <img
-                src="https://gas-kvas.com/uploads/posts/2023-02/1675467721_gas-kvas-com-p-fonovii-risunok-shashki-49.jpg"
+                src="https://i2.wp.com/binclub.ru/wp-content/uploads/2018/01/pokupka-prodazha.png"
                 alt="Image"
                 className="img-fluid"
               />
             </div>
             <div className="person-body">
               <a href="cheese.html">
-                <h3 className="staff-name">Шахматы</h3>
+                <h3 className="staff-name">Поддержки и сопротивления</h3>
               </a>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis quis molestiae vitae eligendi at.
+              Основана на идее, что цены криптовалют могут испытывать
+               сопротивление при достижении определенных уровней
               </p>
             </div>
           </div>
@@ -324,18 +314,18 @@ const Train = () => {
           <div className="team text-center">
             <div className="mb-4">
               <img
-                src="https://gas-kvas.com/uploads/posts/2023-02/1676362303_gas-kvas-com-p-detskii-risunok-sportivnii-inventar-27.jpg"
+                src="https://sun9-12.userapi.com/impg/fJTLkisS4VafhZhpCWvEe5HrUdVzMJI23OAHdw/hisB35SxdX8.jpg?size=1080x995&quality=96&sign=cb4cf763fdb63ce8385fdc9451a2fb40&c_uniq_tag=QS0gXkXGHCKtHOMEgqIGvKwPXIwksAUJycO4FSuVs0U&type=album"
                 alt="Image"
                 className="img-fluid"
               />
             </div>
             <div className="team-body">
               <a href="fitnes.html">
-                <h3 className="staff-name">Фитнес</h3>
+                <h3 className="staff-name">Паттерн свечей</h3>
               </a>
               <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis quis molestiae vitae eligendi at.
+               «молоток», «падающая звезда», «тройная свеча». Они могут
+               сигнализировать о развороте тренда или продолжении движения цены. 
               </p>
             </div>
           </div>

@@ -144,11 +144,7 @@ function Profiletrend() {
                             Функции
                           </a>
                           <ul className="dropdown arrow-top">
-                            <li>
-                              <a href="#" target="_blank" className="nav-link">
-                                <span className="text-primary">Психология</span>
-                              </a>
-                            </li>
+                 
                             <li>
                               <a href="/trending" className="nav-link">
                                 Торговля
@@ -163,19 +159,11 @@ function Profiletrend() {
                         </li>
                         <li>
                           <a href="/train" className="nav-link">
-                            Sport
+                            Стратегии
                           </a>
                         </li>
-                        <li>
-                          <a href="/kino" className="nav-link">
-                            Kino
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/game" className="nav-link">
-                            Game
-                          </a>
-                        </li>
+                   
+                    
                         <li>
                           <a href="/blog" className="nav-link">
                             Психология
@@ -341,7 +329,6 @@ function Profiletrend() {
             </div>
           </div>
         {/* <Animation /> */}
-
           {/* <h3>Ты вошел !!!!!!! {userDetails.firstName}</h3>
           <div>
             <p>Email: {userDetails.email}</p>

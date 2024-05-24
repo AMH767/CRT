@@ -51,7 +51,7 @@ const Trending = () => {
                   <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                     <li>
                       <a href="/" className="nav-link">
-                        Home
+                        Домой
                       </a>
                     </li>
                     <li className="has-children">
@@ -78,19 +78,11 @@ const Trending = () => {
                     </li>
                     <li>
                       <a href="/train" className="nav-link">
-                        Sport
+                        Стратегии
                       </a>
                     </li>
-                    <li>
-                      <a href="/kino" className="nav-link">
-                        Kino
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/game" className="nav-link">
-                        Game
-                      </a>
-                    </li>
+                
+                   
                     <li>
                       <a href="/blog" className="nav-link">
                         Психология

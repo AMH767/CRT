@@ -27,12 +27,16 @@ import Trending from './pages/Trending';
 import Train from './pages/train';
 import Traincart from './pages/Traincart';
 import Batter1b from './pages/Batter1b';
+import Trendstr from './pages/Trendstr';
+
 import Game from './componentsg/Game';
 import Blog from './pages/blog';
 import Blogone from './pages/Blogone';
 import Blogtwo from './pages/Blogtwo';
 import Memitwo from './helper/Memitwo';
 import Test from './pages/Test';
+import Strateg from './pages/Strateg';
+
 import Profiletrend from './pages/Profiletrend';
 import Animation from './pages/Animation';
 
@@ -166,6 +170,8 @@ const Appd = () => {
               <Routes>
                 {/* <Route path="/" element={<Trending />} /> */}
                 <Route path="/test" element={<Test />} />
+                <Route path="/strateg" element={<Strateg />} />
+
                 <Route path="/infoQuiz" element={<InfoQuiz />} />
                 <Route path="/boxQuiz" element={<BoxQuiz />} />
                 <Route path="/resultQuiz" element={<ResultQuiz />} />
@@ -183,6 +189,8 @@ const Appd = () => {
                 <Route path="/Train" element={<Train />} />
                 <Route path="/Traincart" element={<Traincart />} />
                 <Route path="/Batter1b" element={<Batter1b />} />
+                <Route path="/Trendstr" element={<Trendstr />} />
+
                 <Route path="/Blog" element={<Blog />} />
                 <Route path="/Blogone" element={<Blogone />} />
                 <Route path="/Blogtwo" element={<Blogtwo />} />

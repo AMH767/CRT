@@ -15,7 +15,7 @@ import '../assets/css/style-qnatum.css';
 import '../assets/css/aos.css';
 
 
-const Blog = () => {
+const Strateg = () => {
   const { trendData, resetTrendingResult} = useContext(TrendingContext);
 
   return (
@@ -83,7 +83,7 @@ const Blog = () => {
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                 <li>
                   <a href="/" className="nav-link">
-                    Домой
+                    Home
                   </a>
                 </li>
                 <li className="has-children">
@@ -91,7 +91,11 @@ const Blog = () => {
                   Функции
                   </a>
                   <ul className="dropdown arrow-top">
-                
+                    <li>
+                      <a href="#" target="_blank" className="nav-link">
+                        <span className="text-primary">Психология</span>
+                      </a>
+                    </li>
                     <li>
                       <a href="/trending" className="nav-link">
                         Торговля
@@ -109,11 +113,19 @@ const Blog = () => {
                 </li>
                 <li>
                   <a href="/train" className="nav-link">
-                    Стратегии
+                    Sport
                   </a>
                 </li>
-                
-               
+                <li>
+                  <a href="/kino" className="nav-link">
+                    Kino
+                  </a>
+                </li>
+                <li>
+                  <a href="/game" className="nav-link">
+                    Game
+                  </a>
+                </li>
                 <li>
                   <a href="/blog" className="nav-link">
                     Психология
@@ -144,49 +156,85 @@ const Blog = () => {
     <div className="container">
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="section-title mb-3">Психологические советы </h2>
+          <h2 className="section-title mb-3">Стратегии</h2>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
+        <div className="bobi col-md-6 col-lg-4 mb-4 mb-lg-4">
           <div className="h-entry">
-            <img
+            {/* <img
               src="https://raw.githubusercontent.com/AMH767/cryptoimage/main/cryptotwo2.png"
               alt="Image"
               className="img-fluid"
-            />
+            /> */}
             <h2>
-              <a href="/blogone">Психология криптотрейдинга: Часть 1</a>
+              <a href="/Trendstr">Парный трейдинг</a>
             </h2>
             {/* <div class="meta mb-4">Ham Brook <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-            Человеческий мозг развивался в совершенно
-            иных условиях, по сравнению с которыми трейдеры 
-            должны вести...
+            Одновременная покупка и продажа двух связанных...
             </p>
             <p>
-              <a href="/blogone">Читать...</a>
+              <a href="/Trendstr">Перейти</a>
             </p>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
+        <div className="bobi col-md-6 col-lg-4 mb-4 mb-lg-4">
           <div className="h-entry">
-            <img
+            {/* <img
               src="https://raw.githubusercontent.com/AMH767/cryptoimage/main/crypt.jpg"
               alt="Image"
               className="img-fluid"
-            />
+            /> */}
             <h2>
-              <a href="/blogtwo">Психология криптотрейдинга: Часть 2</a>
+              <a href="/Trendstr">Поддержки и сопротивления</a>
             </h2>
             {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
+            Основана на идее, что цены криптовалют могут испытывать...
             </p>
             <p>
-              <a href="/blogtwo">Читать...</a>
+              <a href="/Trendstr">Перейти</a>
+            </p>
+          </div>
+        </div>
+        <div className="bobi col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div className="h-entry">
+            {/* <img
+              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
+              alt="Image"
+              className="img-fluid"
+            /> */}
+            <h2>
+              <a href="/Trendstr">Паттерн свечей</a>
+            </h2>
+            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
+            <p>
+            Они могут сигнализировать о развороте тренда или...
+            </p>
+            <p>
+              <a href="/Trendstr">Перейти</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* <div className="row">
+        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div className="h-entry">
+            <img
+              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
+              alt="Image"
+              className="img-fluid"
+            />
+            <h2>
+              <a href="#">Lorem ipsum dolor sit amet</a>
+            </h2>
+  
+            <p>
+              Тест на знание основ графических паттернов...
+            </p>
+            <p>
+              <a href="#">Перейти</a>
             </p>
           </div>
         </div>
@@ -200,14 +248,29 @@ const Blog = () => {
             <h2>
               <a href="#">Lorem ipsum dolor sit amet</a>
             </h2>
-            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
+              Тест на знание основ графических паттернов...
             </p>
             <p>
-              <a href="#">Читать...</a>
+              <a href="#">Перейти</a>
+            </p>
+          </div>
+        </div>
+        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div className="h-entry">
+            <img
+              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
+              alt="Image"
+              className="img-fluid"
+            />
+            <h2>
+              <a href="#">Lorem ipsum dolor sit amet</a>
+            </h2>
+            <p>
+              Тест на знание основ графических паттернов...
+            </p>
+            <p>
+              <a href="#">Перейти</a>
             </p>
           </div>
         </div>
@@ -223,14 +286,11 @@ const Blog = () => {
             <h2>
               <a href="#">Lorem ipsum dolor sit amet</a>
             </h2>
-            {/* <div class="meta mb-4">Ham Brook <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
+              Тест на знание основ графических паттернов...
             </p>
             <p>
-              <a href="#">Читать...</a>
+              <a href="#">Перейти</a>
             </p>
           </div>
         </div>
@@ -244,14 +304,11 @@ const Blog = () => {
             <h2>
               <a href="#">Lorem ipsum dolor sit amet</a>
             </h2>
-            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
+              Тест на знание основ графических паттернов...
             </p>
             <p>
-              <a href="#">Читать...</a>
+              <a href="#">Перейти</a>
             </p>
           </div>
         </div>
@@ -265,83 +322,15 @@ const Blog = () => {
             <h2>
               <a href="#">Lorem ipsum dolor sit amet</a>
             </h2>
-            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
+              Тест на знание основ графических паттернов...
             </p>
             <p>
-              <a href="#">Читать...</a>
+              <a href="#">Перейти</a>
             </p>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
-          <div className="h-entry">
-            <img
-              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
-              alt="Image"
-              className="img-fluid"
-            />
-            <h2>
-              <a href="#">Lorem ipsum dolor sit amet</a>
-            </h2>
-            {/* <div class="meta mb-4">Ham Brook <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
-            </p>
-            <p>
-              <a href="#">Читать...</a>
-            </p>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
-          <div className="h-entry">
-            <img
-              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
-              alt="Image"
-              className="img-fluid"
-            />
-            <h2>
-              <a href="#">Lorem ipsum dolor sit amet</a>
-            </h2>
-            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
-            </p>
-            <p>
-              <a href="#">Читать...</a>
-            </p>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
-          <div className="h-entry">
-            <img
-              src="https://raw.githubusercontent.com/Alen767/image/main/3D_Animation_Style_lots_of_boxing_gloves_3.jpg"
-              alt="Image"
-              className="img-fluid"
-            />
-            <h2>
-              <a href="#">Lorem ipsum dolor sit amet</a>
-            </h2>
-            {/* <div class="meta mb-4">James Phelps <span class="mx-2">•</span> Jan 18, 2019<span class="mx-2">•</span> <a href="#">News</a></div> */}
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              eligendi nobis ea maiores sapiente veritatis reprehenderit
-              suscipit quaerat rerum voluptatibus a eius.
-            </p>
-            <p>
-              <a href="#">Читать...</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      </div> */}
     </div>
   </div>
   <div className="footer py-5 text-center">
@@ -376,4 +365,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Strateg;
